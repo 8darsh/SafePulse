@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>522014759376-ope7rroiv8sjuc925h5fkqejbc15knm8.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.522014759376-ope7rroiv8sjuc925h5fkqejbc15knm8</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDK9HX3yApH-2Lr4AawaMOJiGQJFP0dkg8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>522014759376</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>me.singh.adarsh.SafePulse</string>
+	<key>PROJECT_ID</key>
+	<string>safepulse-7d13a</string>
+	<key>STORAGE_BUCKET</key>
+	<string>safepulse-7d13a.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:522014759376:ios:b7e0d460ef692c1257c1d5</string>
+</dict>
+</plist>
