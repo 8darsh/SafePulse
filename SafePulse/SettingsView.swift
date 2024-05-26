@@ -10,11 +10,14 @@ import Firebase
 struct SettingsView: View {
     @Binding var isSignedIn:Bool
     @Binding var path: NavigationPath
+    @Environment(\.dismiss) private var dismiss
     var body: some View {
         NavigationStack{
             List {
                 Button {
                     signOut()
+                    
+                    
                 } label: {
                     Text("Log Out")
                 }
@@ -37,7 +40,7 @@ struct SettingsView: View {
         }
         
         
-       
+       dismiss()
     }
     
 }

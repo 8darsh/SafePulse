@@ -22,6 +22,7 @@
 		D2A3E2752C01EA7E007A8373 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A3E2742C01EA7E007A8373 /* SignInView.swift */; };
 		D2A3E2782C01EC57007A8373 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A3E2772C01EC57007A8373 /* HomeView.swift */; };
 		D2A3E27A2C01F5FC007A8373 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A3E2792C01F5FC007A8373 /* SettingsView.swift */; };
+		D2DC92A12C036B5300966AED /* gg.png in Resources */ = {isa = PBXBuildFile; fileRef = D2DC92A02C036B5300966AED /* gg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		D2A3E2762C01EB43007A8373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D2A3E2772C01EC57007A8373 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		D2A3E2792C01F5FC007A8373 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		D2DC92A02C036B5300966AED /* gg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gg.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				D2A3E2712C01EA16007A8373 /* AppDelegate.swift */,
 				D2A3E2772C01EC57007A8373 /* HomeView.swift */,
 				D2A3E2792C01F5FC007A8373 /* SettingsView.swift */,
+				D2DC92A02C036B5300966AED /* gg.png */,
 			);
 			path = SafePulse;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				D2A3E2622C01E734007A8373 /* GoogleService-Info.plist in Resources */,
 				D2A3E25B2C01E656007A8373 /* Preview Assets.xcassets in Resources */,
 				D2A3E2582C01E656007A8373 /* Assets.xcassets in Resources */,
+				D2DC92A12C036B5300966AED /* gg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
