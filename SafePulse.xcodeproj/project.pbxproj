@@ -22,10 +22,10 @@
 		D2A3E2752C01EA7E007A8373 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A3E2742C01EA7E007A8373 /* SignInView.swift */; };
 		D2A3E2782C01EC57007A8373 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A3E2772C01EC57007A8373 /* HomeView.swift */; };
 		D2A3E27A2C01F5FC007A8373 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A3E2792C01F5FC007A8373 /* SettingsView.swift */; };
-		D2DC92A12C036B5300966AED /* gg.png in Resources */ = {isa = PBXBuildFile; fileRef = D2DC92A02C036B5300966AED /* gg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D247E6552C08AD6200B833EC /* SafePulse.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SafePulse.entitlements; sourceTree = "<group>"; };
 		D2A3E2502C01E654007A8373 /* SafePulse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafePulse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2A3E2532C01E654007A8373 /* SafePulseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafePulseApp.swift; sourceTree = "<group>"; };
 		D2A3E2552C01E654007A8373 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -37,7 +37,6 @@
 		D2A3E2762C01EB43007A8373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D2A3E2772C01EC57007A8373 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		D2A3E2792C01F5FC007A8373 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		D2DC92A02C036B5300966AED /* gg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gg.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,17 +75,17 @@
 		D2A3E2522C01E654007A8373 /* SafePulse */ = {
 			isa = PBXGroup;
 			children = (
+				D247E6552C08AD6200B833EC /* SafePulse.entitlements */,
 				D2A3E2762C01EB43007A8373 /* Info.plist */,
+				D2A3E2712C01EA16007A8373 /* AppDelegate.swift */,
 				D2A3E2532C01E654007A8373 /* SafePulseApp.swift */,
 				D2A3E2552C01E654007A8373 /* ContentView.swift */,
 				D2A3E2732C01EA67007A8373 /* Authentication */,
 				D2A3E2572C01E656007A8373 /* Assets.xcassets */,
 				D2A3E2612C01E734007A8373 /* GoogleService-Info.plist */,
 				D2A3E2592C01E656007A8373 /* Preview Content */,
-				D2A3E2712C01EA16007A8373 /* AppDelegate.swift */,
 				D2A3E2772C01EC57007A8373 /* HomeView.swift */,
 				D2A3E2792C01F5FC007A8373 /* SettingsView.swift */,
-				D2DC92A02C036B5300966AED /* gg.png */,
 			);
 			path = SafePulse;
 			sourceTree = "<group>";
@@ -180,7 +179,6 @@
 				D2A3E2622C01E734007A8373 /* GoogleService-Info.plist in Resources */,
 				D2A3E25B2C01E656007A8373 /* Preview Assets.xcassets in Resources */,
 				D2A3E2582C01E656007A8373 /* Assets.xcassets in Resources */,
-				D2DC92A12C036B5300966AED /* gg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,10 +325,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = SafePulse/SafePulse.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SafePulse/Preview Content\"";
-				DEVELOPMENT_TEAM = 9P2DNH3C2B;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SafePulse/Info.plist;
@@ -346,6 +346,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.singh.adarsh.SafePulse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -357,10 +358,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = SafePulse/SafePulse.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SafePulse/Preview Content\"";
-				DEVELOPMENT_TEAM = 9P2DNH3C2B;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SafePulse/Info.plist;
@@ -376,6 +379,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.singh.adarsh.SafePulse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
