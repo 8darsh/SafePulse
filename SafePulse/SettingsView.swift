@@ -9,14 +9,13 @@ import SwiftUI
 import Firebase
 struct SettingsView: View {
     @Binding var isSignedIn:Bool
-    @Binding var path: NavigationPath
+    @Binding var path:NavigationPath
     @Environment(\.dismiss) private var dismiss
     var body: some View {
         NavigationStack{
             List {
                 Button {
                     signOut()
-                    
                     
                 } label: {
                     Text("Log Out")
@@ -34,13 +33,12 @@ struct SettingsView: View {
             
           try firebaseAuth.signOut()
             isSignedIn = false
-            path.removeLast(path.count)
+            path = NavigationPath()
         } catch let signOutError as NSError {
           print("Error signing out: %@", signOutError)
         }
+        dismiss()
         
-        
-       dismiss()
     }
     
 }

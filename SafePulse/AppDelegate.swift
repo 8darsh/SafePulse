@@ -23,9 +23,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         if GIDSignIn.sharedInstance.handle(url){
             return true
         }
-        if Auth.auth().canHandle(url){
-            return true
-        }
         return false
     }
 

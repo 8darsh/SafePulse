@@ -11,7 +11,7 @@ struct HomeView: View {
     @Binding var isSignedIn:Bool
     @Binding var path: NavigationPath
     var body: some View {
-        NavigationStack{
+        NavigationStack(path: $path){
             Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
         }.toolbar{
             ToolbarItem(placement: .topBarTrailing) {

@@ -13,9 +13,9 @@ struct ContentView: View {
     var body: some View {
         NavigationStack(path: $path){
             if isSignedIn {
-                NavigationStack{
-                    HomeView(isSignedIn: $isSignedIn,path: $path)
-                }
+           
+                HomeView(isSignedIn: $isSignedIn,path: $path)
+            
             } else {
                 SignInView(isSignedIn: $isSignedIn)
             }
@@ -23,13 +23,7 @@ struct ContentView: View {
             checkAuth()
         })
         
-        .onChange(of: isSignedIn){
-            newValue in
-            
-            if !newValue{
-                path = NavigationPath()
-            }
-        }
+
         
     
         
